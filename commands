@@ -1,0 +1,40 @@
+vim has 2 mode
+1.insertion mode 2 command mode
+to get inserted mode press i 
+to get command mode press esc
+
+
+
+
+commands are in commands mode
+x - delete character
+u - undo
+ctrl-R - redo
+A - to append text at the end
+:wq - to save and exit
+:w - save
+:q! - trash changes
+dw - moves cursor to beggining and delete
+2w -  to move the cursor 2 words forward
+3e - moves the cursor end of third word forward
+0 - move to the start of the line
+d2w - deletes 2 words
+2dd - deletes 2nd line
+
+p - puts the previously deleted text after the cursor
+r - to replace the letter with e
+ce - deleted the word and places you in insert mode
+G - to move to the bottom of the file
+gg - to move to the start of the file
+% - to find matching ),],}
+:s/old/new where old gets replaced by new
+/ = backward search
+? = forward search
+:| = to run shell commands like :!dir , :!ls
+:w-Test (filename)
+v - starts visual mode
+:r - filename will insert the content into the current file
+R - to replace more than one character
+y - to copy text in visual mode and p to paste
+yw - yanks one word
+R - enters replace mode unto <ESC> is pres
