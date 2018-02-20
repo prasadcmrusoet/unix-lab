@@ -1,0 +1,50 @@
+
+
+
+
+Questions:
+
+
+1. Display third column of filename.csv without printing the reader CGPA, also sort the same.
+$cut -d , -f 3 varsha.csv|grep -v cgpa|sort
+
+
+
+2. Display only current time using date command.
+$date +"%T"
+
+
+
+3. Use unique with all possible options.
+$uniq -c varsha.csv
+
+
+
+4. Print number of lines from ls-l command result.
+$ls -l
+
+
+     
+5. Dispay USN from 7-14 along with other fields.
+$tail -n 8 varsha.csv 
+
+
+
+6. Sort only name field from filename.csv.
+$cut -d, -f 2 varsha.csv|grep -v name|sort
+
+
+
+7. Replace name with student name.
+$cut -d, -f 2 varsha.csv | head -n 1 |tr ["name"] ["student name"]
+
+
+
+
+
+
+$grep -v Name CSE.csv : Removes the field which is mentioned (here name).
+$cut -d , -f 2 CSE.csv: Prints the desired fields.
+$head -c 9 CSE.csv : Prints the number the number of charecters as specified(here 9).
+$head -v CSE.csv: Prints the header for the file.
+$cut -d , -f 1 CSE.csv|grep -v USN: Prints the first column without the field USN
