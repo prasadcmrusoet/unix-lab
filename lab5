@@ -47,5 +47,4 @@ case $choice in
 3)echo Multiplication : $(expr $a \* $b);;
 4)echo Division       : $(expr $a / $b);;
 5)echo Modules        : $(expr $a % $b);;
-*)echo This is not a choice 
 esac
