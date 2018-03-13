@@ -97,24 +97,40 @@ fi
    Q2) File related commands:
  
 
+	  i) diff:
+	  test---->kkjmkmf
+	  test1--->cnhnbjjjoihjjh j n h cnbhc jn ygqijpn
+	  $diff test test1:
+	  result:
+	   1,2c1
+	 < 
+	 < kkjmkmf
+	 ---
+	 > cnhnbjjjoihjjh j n h cnbhc jn ygqijpn
+
+	 
+	 ii) $cmp:
+	    result:
+	    test test1 differ: byte 1, line 1
 
 
+	 iii) $comm:
+	      result:
+	     	cnhnbjjjoihjjh j n h cnbhc jn ygqijpn 
+		kkjmkmf
 
 
+	 iv) $cp test test2:
+	     result:
+	      $cat test2
+	       kkjmkmf
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+	  v) $mv test test3:
+	       result:
+	       $cat test
+	       $cat test3
+	       kkjmkmf
 
 
 
@@ -129,6 +145,8 @@ Enter the value 0f n
 1
 2
 3
+
+
 Q4)thetime=`date +%d-%m-%Y` #
  for i in *
  mv $i $(date "+_%d%m%Y") ${i%}
