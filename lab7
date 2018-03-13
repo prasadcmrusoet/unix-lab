@@ -1,0 +1,50 @@
+cs2016b118@user:~$ cd venkatesh
+cs2016b118@user:~/venkatesh$ vim lab6.sh
+cs2016b118@user:~/venkatesh$ vim lab6.sh
+cs2016b118@user:~/venkatesh$ cat lab6.sh
+d|Name|Designation|Salary|Phone_number
+1001|shashidhar|Manager|70000|9203451209
+1002|tejas|staff|59000|8892396232
+1003|karan|Head_staff|50000|9845367130
+1004|venkatesh|Director|80000|7856029121
+1005|prasad|manager|70000|9206678099
+1006|kotte|Director|80000|7856463902
+1007|kishor|Staff|60000|9934560287
+1008|shashank|Staff|60000|8894589012
+1009|pavan|Staff|59000|7890452316
+1010|sagar|Staff|60000|987351034
+cs2016b118@user:~/venkatesh$ sed -n '1,2p' lab.sh
+sed: can't read lab.sh: No such file or directory
+cs2016b118@user:~/venkatesh$ sed -n '1,2p' lab6.sh
+d|Name|Designation|Salary|Phone_number
+1001|shashidhar|Manager|70000|9203451209
+cs2016b118@user:~/venkatesh$ clear
+
+
+
+cs2016b118@user:~/venkatesh$ cat lab6.sh
+d|Name|Designation|Salary|Phone_number
+1001|shashidhar|Manager|70000|9203451209
+1002|tejas|staff|59000|8892396232
+1003|karan|Head_staff|50000|9845367130
+1004|venkatesh|Director|80000|7856029121
+1005|prasad|manager|70000|9206678099
+1006|kotte|Director|80000|7856463902
+1007|kishor|Staff|60000|9934560287
+1008|shashank|Staff|60000|8894589012
+1009|pavan|Staff|59000|7890452316
+1010|sagar|Staff|60000|987351034
+cs2016b118@user:~/venkatesh$ sed -n '1,2p' lab6.sh
+d|Name|Designation|Salary|Phone_number
+1001|shashidhar|Manager|70000|9203451209
+cs2016b118@user:~/venkatesh$ sed -n -e '1,3p' -e '5,6p' -e '9,10p'lab6.sh
+sed: -e expression #3, char 6: extra characters after command
+cs2016b118@user:~/venkatesh$ sed -n -e '1,3p' -e '5,6p' -e '9,10p' lab6.sh
+d|Name|Designation|Salary|Phone_number
+1001|shashidhar|Manager|70000|9203451209
+1002|tejas|staff|59000|8892396232
+1004|venkatesh|Director|80000|7856029121
+1005|prasad|manager|70000|9206678099
+1008|shashank|Staff|60000|8894589012
+1009|pavan|Staff|59000|7890452316
+
