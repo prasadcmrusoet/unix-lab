@@ -16,12 +16,12 @@ emp_id|Name|Designation|Salary|Phone_number
 
 
 
-1.$ sed -n '1,2p' sedtry.lst
+1.$ sed -n '1,2p' lab7.lst
 
 Emp_id|Name|Designation|Salary|Phone_number
 1001|venkatesh|Manager|70000|9203451209
 
-2.$ sed -n '$p' sedtry.lst
+2.$ sed -n '$p' lab7.lst
 
 1010|Jake|Staff|60000|9873510342
 
@@ -35,11 +35,11 @@ Emp_id|Name|Designation|Salary|Phone_number
 1008|shashidhar|Staff|60000|8894589012
 1009|kumar|Staff|59000|7890452316
 
-4.$ sed -n '/Manager/p' sedtry.lst
+4.$ sed -n '/Manager/p' lab7.lst
 
 1001|Adam|Manager|70000|9203451209
 
-5.$ sed -n '1,2!p' sedtry.lst
+5.$ sed -n '1,2!p' lab.lst
 
 1002|prasad|staff|59000|8892396232
 1003|tejas|Head_staff|50000|9845367130
@@ -51,7 +51,7 @@ Emp_id|Name|Designation|Salary|Phone_number
 1009|kumar|Staff|59000|7890452316
 1010|rakshith|Staff|60000|9873510342
 
-6.$ sed 's/|/:/g' sedtry.lst
+6.$ sed 's/|/:/g' lab7.lst
 
 Emp_id:Name:Designation:Salary:Phone_number
 1001:venkatesh:Manager:70000:9203451209
@@ -69,7 +69,7 @@ Excersice 5
 
 Display the details of the employee whose designation is manager/Manager.
 
-$ sed -n '/[mM]anager/p' sedtry.lst
+$ sed -n '/[mM]anager/p' lab7.lst
 
 1001|venkatesh|Manager|70000|9203451209
 1005|srinivasa|manager|70000|9206678099
