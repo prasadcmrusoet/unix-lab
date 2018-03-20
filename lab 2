@@ -72,4 +72,111 @@ ln commends
   -X                         sort alphabetically by entry extension
   -Z, --context              print any security context of each file
   -1                         list one file per line.  Avoid '\n' with -q or -b
+  
+  
+  
+  
+  WHO
+       -a, --all
+              same as -b -d --login -p -r -t -T -u
+
+       -b, --boot
+              time of last system boot
+
+       -d, --dead
+              print dead processes
+
+       -H, --heading
+              print line of column headings
+
+       -l, --login
+              print system login processes
+
+-------------------------------------------------------------------------------- 
+CALENDER
+
+cal(PRINTS THE PRESENT MONTH)
+    January 2018      
+Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 15 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29 30 31           
+
+------------------------------------------------------------------------------
+
+LS
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+       -d, --directory
+             list directories themselves, not their contents
+
+       -C          list entries by columns
+
+       -r, --reverse
+              reverse order while sorting
+
+       -R, --recursive
+              list subdirectories recursively
+
+       -s, --size
+              print the allocated size of each file, in blocks
+
+       -S     sort by file size, largest first
+------------------------------------------------------------------------------
+
+UNAME
+
+       -a, --all
+              print  all  information,  in the following order, except omit -p
+              and -i if unknown:
+
+       -s, --kernel-name
+              print the kernel name
+
+       -n, --nodename
+              print the network node hostname
+              -m, --machine
+              print the machine hardware name
+
+       -p, --processor
+              print the processor type (non-portable)
+
+        -o, --operating-system
+              print the operating system
+-------------------------------------------------------------------------------
+TIME-run programs and summarize system resource usage
+
+l	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+-------------------------------------------------------------------------------
+DATE
+
+        -d, --date=STRING
+              display time described by STRING, not 'now'
+
+       --debug
+              annotate the parsed date, and warn about questionable  usage  to
+              stderr
+       -r, --reference=FILE
+              display the last modification time of FILE
+
+       -s, --set=STRING
+              set time described by STRING
+
+       -u, --utc, --universal
+              print or set Coordinated Universal Time (UTC)
+-----------------------------------------------------------------------------
     
