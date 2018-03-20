@@ -52,3 +52,76 @@ $head -c 9 CSE.csv : Prints the number the number of charecters as specified
 $head -v CSE.csv: Prints the header for the file.
 
 $cut -d , -f 1 CSE.csv|grep -v USN: Prints the first column without the field USN
+
+
+LAB 3 ... 30 January 2018
+____________________________________________________________________________________________________
+SL.NO,USN,NAME
+1,16UG08070,HITESH
+2,16UG08072,KISHOR
+3,16UG08069,ACHAL
+4,16UG08050,SHASHANK
+5,16UG08068,YOGI
+6,16UG08049,SHASHI
+7,16UG08051,SHAIK
+8,16UG08073,JATIN
+9,16UG08078,VENKY
+10,16UG08077,PREM
+
+FILTER COMMANDS
+
+ 1          
+ REG.NO,NAME,SECTION
+ 1,Hitesh,B
+ 2,Kishor,B
+ 3,Achal,B
+___________________________________________________________________________________________________
+
+ 2
+7,Tejas,B
+8,Shashi,B
+9,Jatin,B
+10,Sagar,A
+____________________________________________________________________________________________________
+
+
+3 
+
+REG.NO
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+________________________________________________________________________________________________________
+
+4
+
+10,Sagar,A
+1,Hitesh,B
+2,Kishor,B
+3,Achal,B
+4,Shashank,B
+5,Prem,A
+6,Venky,B
+7,Tejas,B
+8,Shashi,B
+9,Jatin,B
+REG.NO,NAME,SECTION
+
+_________________________________________________________________________________________________________
+WORD COUNT - It gives us a count with 3 blocks , i.e no. of lines , no. of words , no. of bytes.
+FOR EG.
+
+wc < CSV_PROJECT.csv
+ 11  11 126
+ 
+_________________________________________________________________________________________________________
+
+
