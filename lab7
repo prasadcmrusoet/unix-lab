@@ -67,7 +67,7 @@ Emp_id:Name:Designation:Salary:Phone_number
 
 Excersice 5
 
-1.Display the details of the employee whose designation is manager/Manager.
+Display the details of the employee whose designation is manager/Manager.
 
 $ sed -n '/[mM]anager/p' sedtry.lst
 
