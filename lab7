@@ -1,3 +1,21 @@
+
+emp_id|Name|Designation|Salary|Phone_number
+1001|venkatesh|Manager|70000|9203451209
+1002|prasad|staff|59000|8892396232
+1003|tejas|Head_staff|50000|9845367130
+1004|pavan|Director|80000|7856029121
+1005|srinivasa|manager|70000|9206678099
+1006|kishor|Director|80000|7856463902
+1007|shashank|Staff|60000|9934560287
+1008|shashidhar|Staff|60000|8894589012
+1009|kumar|Staff|59000|7890452316
+1010|rakshith|Staff|60000|9873510342
+
+
+
+
+
+
 1.$ sed -n '1,2p' sedtry.lst
 
 Emp_id|Name|Designation|Salary|Phone_number
