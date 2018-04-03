@@ -1,4 +1,7 @@
-echo "Enter your choice: \n 1) To copy the contents of a  file in another \n 2) To move one file to anoher \n 3) To display the contents of a file \n 4) To find the difference between  two files \n 5) To remove a file"
+         echo "Enter your choice: \n 1) To copy the contents of a  file in another \n 
+	                             2) To move one file to anoher \n 
+				     3) To display the contents of a file \n 
+				     4) To find the difference between  two files \n 5) To remove a file"
 	read l
 	case $l in
 	
